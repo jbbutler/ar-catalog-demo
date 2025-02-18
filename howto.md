@@ -5,7 +5,6 @@ To follow along with this tutorial, you can either clone [this repository](https
 First, we'll load up the packages we need to access the catalog in this tutorial.
 
 ```{code} python
-:label: code1
 import pandas as pd
 import xarray as xr
 import numpy as np
