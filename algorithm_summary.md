@@ -19,6 +19,8 @@ First, for each time step where there are AR pixels present, we cluster them int
 + `min_pts` *(mininum number of points in spatial neighborhood to instantiate a new cluster)*: 5
 + `eps_space` *(spatial neighborhood size to search for points in the same cluster)*: 500km
 
++ ![](./images/spatial_clustering_vis.png)
+
 :::{figure} https://github.com/jbbutler/ar-catalog-demo/blob/main/images/spatial_clustering_vis.png?raw=true
 :align: center
 
