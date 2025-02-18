@@ -3,4 +3,4 @@ An (unpublished) catalog of atmospheric river events in Antarctica by James Butl
 
 ## Algorithm Characteristics
 - Type: Condition and Track
-- Geometry Req.: length > $20^{\deg}$
+- Geometry Req.: length > $20^{\circ}$
