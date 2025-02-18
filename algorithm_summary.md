@@ -21,7 +21,7 @@ First, for each time step where there are AR pixels present, we cluster them int
 
 [](#spatial_cluster) shows an example of this step, for a particular time step.
 
-:::{figure} ./images/spatial_clustering_vis.png
+:::{figure} ./images/spatial_clustering_visv2.png
 :label: spatial_cluster
 :align: center
 
