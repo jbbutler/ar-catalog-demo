@@ -30,7 +30,7 @@ Results of spatial clustering step: previously unlabelled AR pixels are grouped 
 
 Next, we randomly sample some collection of pooints within each cluster generated with the previous step, and cluster these representative points across space and time to generate spatiotemporal clusters using the ST-DBSCAN algorithm in [Birant (2007)](https://www.sciencedirect.com/science/article/pii/S0169023X06000218).
 
-[](#spatiotemporal_cluster) shows an example of how the clusters identified in the time frames around that of []($spatial_cluster) are stitched together across time.
+[](#spatiotemporal_cluster) shows an example of how the clusters identified in the time frames around that of [](#spatial_cluster) are stitched together across time.
 
 :::{figure} ./images/spatiotemporal_clustering_vis.gif
 :label: spatiotemporal_cluster
