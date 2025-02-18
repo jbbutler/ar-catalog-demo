@@ -7,3 +7,4 @@ An (unpublished) catalog of atmospheric river events in Antarctica by James Butl
 - Threshold Requirement: 98th percentile of monthly, pixelwise vIVT
 - Temporal Requirement: Time slice and stitching. Time window of 18 hours to search for candidate AR pixels for a particular storm event.
 - Region: Antarctic ($39^{\circ}$- $86^{\circ}$ S)
+- DIO/Reference: *TBD*
