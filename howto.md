@@ -1,1 +1,1 @@
-# How to use it
+# How to use the catalog
