@@ -21,7 +21,7 @@ storms = pd.read_hdf('2022_storm_df.h5')
 # first 10 storms of 2022
 display_catalog(storms, 10)
 ```
-:::{figure} .images/storm_df_example.png
+:::{figure} ./images/storm_df_example.png
 :label: storm_df_example
 :::
 
@@ -32,7 +32,7 @@ Let's pick a storm and look at a slice of its `xarray.DataArray` at a particular
 ```{code} python
 storms.data_array.iloc[37].isel(time=20).plot.imshow();
 ```
-:::{figure} .images/example_slice.png
+:::{figure} ./images/example_slice.png
 :label: example_slice
 :::
 
