@@ -9,7 +9,7 @@ vIVT = -\frac{1}{g}\int_{sfc}^{top} qvdp.
 This catalog seeks to cluster the individual AR pixels spatiotemporally into individual storm events to facilitate analysis of characteristics and impacts of ARs on the Antarctic Ice Sheet on a storm-by-storm basis. To accomplish this, we use a modified DBSCAN algorithm with two steps:
 
 1. Spatial Clustering: Partition AR pixels spatially at each time step using DBSCAN
-2. Spatiotemporal Clustering: Stitch together the identified clusters across time using a spatiotemporal DBSCAN ([Birant (2007)](https://www.sciencedirect.com/science/article/pii/S0169023X06000218))
+2. Spatiotemporal Clustering: Stitch together the identified clusters across time using a spatiotemporal DBSCAN [Birant (2007)](https://www.sciencedirect.com/science/article/pii/S0169023X06000218).
 
 Below, we describe the stages of our clustering algorithm in a bit more detail.
 
