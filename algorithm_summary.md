@@ -15,9 +15,7 @@ Below, we describe the stages of our clustering algorithm in a bit more detail.
 
 ## Spatial Clustering
 
-First, for each time step where there are AR pixels present, we cluster them into individual groups and storms using a standard DBSCAN algorithm with the following hyperparameters:
-+ `min_pts` *(mininum number of points in spatial neighborhood to instantiate a new cluster)*: 5
-+ `eps_space` *(spatial neighborhood size to search for points in the same cluster)*: 500km
+First, for each time step where there are AR pixels present, we cluster them into individual groups and storms using the standard DBSCAN algorithm.
 
 [](#spatial_cluster) shows an example of this step, for a particular time step.
 
@@ -29,3 +27,12 @@ Results of spatial clustering step: previously unlabelled AR pixels are grouped 
 :::
 
 ## Spatiotemporal Clustering
+
+[](#spatiotemporal_cluster) shows an example of this step, for a particular time step.
+
+:::{figure} ./images/spatiotemporal_clustering_vis.gif
+:label: spatiotemporal_cluster
+:align: center
+
+Results of spatiotemporal clustering step: storms identified spatially within each time step are stitched together across time, with storm labels carried accordingly.
+:::
