@@ -1,1 +1,1 @@
-# Catalog Summary Statistics and Characteristics
+# Catalog summary statistics and characteristics
