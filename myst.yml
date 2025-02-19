@@ -2,10 +2,18 @@
 version: 1
 project:
   id: ca144e67-b057-4826-baa6-4268b27c8e28
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
+  title: Butler (2025?) AR Catalog
+  description: Documentation for the AR Catalog currently in development by Butler et al,
+  authors:
+    - name: James Butler
+    affiliations:
+      - institution: University of California, Berkeley
+        department: Statistics
+        email: butlerj@berkeley.edu
+    - name: Fernando Pérez
+    affiliations:
+      - institution: University of California, Berkeley
+        department: Statistics
   github: https://github.com/jbbutler/ar-catalog-demo
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
