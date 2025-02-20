@@ -18,15 +18,6 @@ from catalog_display import display_catalog
 ```
 The catalog files are organized by year, from 1980 until 2022. Each year's file is an .hdf5 file, that, once loaded, consists of a `pandas.DataFrame`. Let's load up the storms from 2022, and take a look at the output. The following code block produces the image in [](#storm_df_example).
 
-```{code} python
-storms = pd.read_hdf('2022_storm_df.h5')
-# first 10 storms of 2022
-display_catalog(storms, 10)
-```
-:::{figure} ./images/storm_df_example.png
-:label: storm_df_example
-:::
-
 ```{embed} #tbl:catalog_ex
 :remove-output: false
 :remove-input: false
