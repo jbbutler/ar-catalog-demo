@@ -27,6 +27,11 @@ display_catalog(storms, 10)
 :label: storm_df_example
 :::
 
+```{embed} #tbl:catalog_ex
+:remove-output: false
+:remove-input: false
+```
+
 Each row of the DataFrame consists of an individual storm from that year, with a binary-valued `xarray.DataArray` mask containing the AR pixels associated with that storm in the `data_array` column, and an indicator of whether or not that storm made landfall over the AIS at any point in the `is_landfalling` column. Note, the `display_catalog` function is a custom function that behaves like `DataFrame.head()`, which shows the first $n$ many rows of the DataFrame, where in the `data_array` column we specifically show thumbnails of the footprint of the storm at the time of its greatest spatial extent.
 
 Let's pick a storm and look at a slice of its `xarray.DataArray` at a particular time, as shown in [](#example_slice)
