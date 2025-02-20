@@ -27,6 +27,7 @@ project:
     - file: algorithm_summary.md
     - file: howto.md
     - file: summary_stats.md
+    - file: catalog_tutorial_static.ipynb
     
 site:
   template: book-theme
