@@ -1,8 +1,8 @@
 # How to use the catalog
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jbbutler/AR-Catalog-Tutorial/HEAD?labpath=catalog_tutorial.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jbbutler/ar-catalog-demo/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebook_files%2Fcatalog_tutorial.ipynb)
 
-To follow along with this tutorial, you can either clone [this repository](https://github.com/jbbutler/AR-Catalog-Tutorial) and follow the provided instructions to run the `catalog_tutorial.ipynb` notebook, or directly access a cloud-hosted Jupyter notebook via [this binder link](https://mybinder.org/v2/gh/jbbutler/AR-Catalog-Tutorial/HEAD?labpath=catalog_tutorial.ipynb). Note that the `environment.yml` file found in the repository is crucial to loading up these hdf5 files; otherwise you may run into package conflicts.
+To follow along with this tutorial, you can either clone [this repository](https://github.com/jbbutler/AR-Catalog-Tutorial) and follow the provided instructions to run the `catalog_tutorial.ipynb` notebook, or directly access a cloud-hosted Jupyter notebook via [this binder link](https://mybinder.org/v2/gh/jbbutler/ar-catalog-demo/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebook_files%2Fcatalog_tutorial.ipynb). Note that the `environment.yml` file found in the repository is crucial to loading up these hdf5 files; otherwise you may run into package conflicts.
 
 First, we'll load up the packages we need to access the catalog in this tutorial.
 
