@@ -16,6 +16,7 @@ project:
           department: Statistics
   github: https://github.com/jbbutler/ar-catalog-demo
   thumbnail: thumbnail.png
+  banner: atmoshperic_banner.jpg
   jupyter:
     binder:
       url: https://mybinder.org/v2/gh/jbbutler/AR-Catalog-Tutorial/HEAD?labpath=catalog_tutorial.ipynb
